@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "totemwarning",
+    "version": "${version}",
+    "name": "Totem Warning",
+    "description": "Sol elinizde totem olmadığında ekranı ayarlanabilir renk ve saydamlıkla kaplar.",
+    "authors": [
+        "Player"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/totemwarning/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.totemwarning.TotemWarningClient"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.18.0",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
